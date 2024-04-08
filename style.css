@@ -2,9 +2,7 @@
     --laranja: rgb(255, 127, 42);
 }
 
-h2,
-h3,
-p {
+h2,h3,p {
     margin: 0;
 }
 
@@ -56,6 +54,7 @@ ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     padding: 0;
+    line-height: 0;
 }
 
 .btn {
