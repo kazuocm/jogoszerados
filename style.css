@@ -47,17 +47,15 @@ main {
 }
 
 .btn {
-    display: flex;
-    justify-content: flex-end;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
 }
 
 .btn img {
-    position: fixed;
     border: 2px solid white;
     border-radius: 100%;
     padding: 10px;
-
-    margin-top: 41rem;
     transition: 0.3s all ease;
 }
 
