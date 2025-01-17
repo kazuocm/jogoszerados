@@ -45,9 +45,10 @@ header {
     color: var(--laranja);
 }
 
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     gap: 30px;
     list-style: none;
     cursor: pointer;
@@ -55,6 +56,8 @@ ul {
     font-size: 18px;
     padding: 0;
     line-height: 0;
+    max-width: 50dvw;
+    flex-wrap: wrap;
 }
 
 .btn {
