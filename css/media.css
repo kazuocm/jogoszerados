@@ -18,11 +18,13 @@
         align-items: center;
         font-size: 25px;
         gap: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 2rem;
+        padding-top: 1rem;
     }
 
     nav{
         justify-content: center;
+        margin: 1rem 0; 
     }
 
     ul {
@@ -30,6 +32,7 @@
         justify-content: center;
         flex-wrap: wrap;
         padding: 0;
+        margin: 0;
         gap: 15px;
         line-height: 20px;
     }
@@ -45,8 +48,7 @@
     }
 
     .top{
-        margin-bottom: 2rem;
-        padding: 0 2.4rem;
+        padding: 0;
     }
 
     .content {
@@ -54,7 +56,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-bottom: 50px;
+        margin-bottom: 5rem;
         padding: 0 2.4rem;
     }
 
@@ -64,7 +66,7 @@
 
     .content a img {
         min-width: 100%;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .content a img:hover {
@@ -76,6 +78,7 @@
         padding: 0;
         max-width: 100vw;
         text-align: justify;
+        margin-top: 1rem;
     }
 
     .btn {

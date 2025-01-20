@@ -135,7 +135,7 @@ const dados_jogos = [
         score: "8",
         data: "13/set/2024",
         url: "https://www.metacritic.com/game/castlevania-lords-of-shadow-mirror-of-fate/",
-        img: "https://cdn2.steamgriddb.com/thumb/79f9295a63aa81a4ba0865ea39530248.png",
+        img: "https://cdn2.steamgriddb.com/grid/4fbd30307aac385e7f8e29d86d63b3ce.png",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
     {
@@ -143,7 +143,7 @@ const dados_jogos = [
         score: "7",
         data: "13/set/2024",
         url: "https://www.metacritic.com/game/castlevania-lords-of-shadow-2/",
-        img: "https://cdn2.steamgriddb.com/thumb/1d120c86144523926d4f638bab708ca8.jpg",
+        img: "https://cdn2.steamgriddb.com/grid/906a7ff62a0f6aae3116dcf9c0baeeed.jpg",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
     {
@@ -151,7 +151,7 @@ const dados_jogos = [
         score: "9",
         data: "08/set/2024",
         url: "https://www.metacritic.com/game/castlevania-lords-of-shadow-ultimate-edition/",
-        img: "https://cdn2.steamgriddb.com/thumb/920f6af4188c97b6c0e6e01abb9a0411.jpg",
+        img: "https://cdn2.steamgriddb.com/grid/920f6af4188c97b6c0e6e01abb9a0411.png",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
     {
@@ -183,7 +183,7 @@ const dados_jogos = [
         score: "8",
         data: "23/mar/2024",
         url: "https://www.metacritic.com/game/transformers-devastation/",
-        img: "https://cdn2.steamgriddb.com/thumb/3cd38c8f478db495cb80f5a51b4fdad2.jpg",
+        img: "https://cdn2.steamgriddb.com/grid/3cd38c8f478db495cb80f5a51b4fdad2.png",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
     {
@@ -223,7 +223,7 @@ const dados_jogos = [
         score: "9",
         data: "2023",
         url: "https://www.metacritic.com/game/marvels-spider-man/",
-        img: "https://cdn2.steamgriddb.com/thumb/1bc38477bc1f540837e39eb0b8dbb520.jpg",
+        img: "https://cdn2.steamgriddb.com/grid/1bc38477bc1f540837e39eb0b8dbb520.png",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
     {
@@ -231,7 +231,7 @@ const dados_jogos = [
         score: "6",
         data: "04/mai/2023",
         url: "https://www.metacritic.com/game/toy-story-3/",
-        img: "https://cdn2.steamgriddb.com/thumb/2ed792f39611e03f115b0f26930305af.jpg",
+        img: "https://cdn2.steamgriddb.com/grid/2ed792f39611e03f115b0f26930305af.jpg",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
     {
@@ -343,7 +343,7 @@ const dados_jogos = [
         score: "7",
         data: "2018",
         url: "https://www.metacritic.com/game/assassins-creed-revelations/",
-        img: "https://cdn2.steamgriddb.com/thumb/105fb0578a9e90c458f69bad63c38709.png",
+        img: "https://cdn2.steamgriddb.com/grid/105fb0578a9e90c458f69bad63c38709.png",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
     {
@@ -359,7 +359,7 @@ const dados_jogos = [
         score: "8",
         data: "2018",
         url: "https://www.metacritic.com/game/assassins-creed-ii/",
-        img: "https://cdn2.steamgriddb.com/thumb/30a53d130bbe822d676ababadbd3fffd.jpg",
+        img: "https://cdn2.steamgriddb.com/grid/30a53d130bbe822d676ababadbd3fffd.png",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
     {
@@ -467,11 +467,11 @@ dados_jogos.forEach(jogo => {
     div_top.appendChild(div_title);
     div_top.appendChild(score);
     div_top.appendChild(data);
+    div_top.appendChild(p);
 
     div_content.appendChild(a_content);
-    div_content.appendChild(p);
+    div_content.appendChild(div_top);
 
-    game_name.appendChild(div_top);
     game_name.appendChild(div_content);
 
     games.appendChild(game_name)
