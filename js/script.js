@@ -1,5 +1,13 @@
 const dados_jogos = [
     {
+        title: "necrobarista",
+        score: "10",
+        data: "22/jan/2025",
+        url: "https://www.metacritic.com/game/necrobarista/",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/725270/library_600x900_2x.jpg?t=1633022912",
+        p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+    },
+    {
         title: "sonic frontiers",
         score: "8",
         data: "19/jan/2025",
@@ -7,7 +15,6 @@ const dados_jogos = [
         img: "https://cdn.cloudflare.steamstatic.com/steam/apps/1237320/library_600x900_2x.jpg?t=1697492509",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
-
     {
         title: "milk outside a bag of milk outside a bag of milk",
         score: "7",
@@ -16,7 +23,6 @@ const dados_jogos = [
         img: "https://cdn.cloudflare.steamstatic.com/steam/apps/1604000/library_600x900_2x.jpg?t=1658078710",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
-
     {
         title: "supernormal",
         score: "6",
@@ -25,7 +31,6 @@ const dados_jogos = [
         img: "https://cdn.cloudflare.steamstatic.com/steam/apps/2532430/library_600x900_2x.jpg?t=1702852585",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
     },
-
     {
         title: "a way out",
         score: "8",
