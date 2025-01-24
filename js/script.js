@@ -1,5 +1,13 @@
 const dados_jogos = [
     {
+        title: "play with me",
+        score: "6",
+        data: "23/jan/2025",
+        url: "https://www.metacritic.com/game/play-with-me-2018/",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/725780/library_600x900_2x.jpg?t=1683220095",
+        p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+    },
+    {
         title: "necrobarista",
         score: "10",
         data: "22/jan/2025",
