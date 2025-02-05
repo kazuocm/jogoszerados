@@ -1,5 +1,13 @@
 const dados_jogos = [
     {
+        title: "fobia - st. dinfna hotel",
+        score: "8",
+        data: "31/jan/2025",
+        url: "https://www.metacritic.com/game/fobia-st-dinfna-hotel/",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/1298140/library_600x900_2x.jpg?t=1670891440",
+        p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+    },
+    {
         title: "quantum break",
         score: "8",
         data: "27/jan/2025",
@@ -455,7 +463,8 @@ function criarElemento(tagName, classe = "", texto = "") {
     return elemento;
 }
 
-dados_jogos.forEach(jogo => {
+dados_jogos//.filter(jogo => jogo.score === "4")
+.forEach(jogo => {
     const game_name = criarElemento("div", jogo.title, "");
     const div_top = criarElemento("div", "top");
     const div_title = criarElemento("div", "title");

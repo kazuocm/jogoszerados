@@ -67,10 +67,10 @@
     .content a img {
         min-width: 100%;
         margin-bottom: 1rem;
-    }
 
-    .content a img:hover {
-        transform: none;
+        &:hover{
+            transform: none;
+        }
     }
 
     .content p {
@@ -90,9 +90,8 @@
         border: 0;
         padding: 0;
         transition: none;
-    }
-
-    .btn img:hover {
-        transform: none;
+        &:hover{
+            transform: none;
+        }
     }
 }

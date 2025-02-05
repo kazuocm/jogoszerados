@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: rgba(0, 0, 0, 87%);
+    background-color: #212121;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1200px;
@@ -24,7 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .logo {
@@ -65,20 +65,21 @@ ul {
 
 .btn {
     position: fixed;
-    bottom: 100px;
-    right: 100px;
+    bottom: 5%;
+    right: 5%;
 }
 
 .btn img {
+    background-color: #212121;
     border: 2px solid white;
     border-radius: 100%;
     padding: 10px;
     transition: 0.3s all ease;
-}
 
-.btn img:hover {
-    background-color: var(--laranja);
-    transform: scale(1.2);
+    &:hover{
+        background-color: var(--laranja);
+        transform: scale(1.1);
+    }
 }
 
 main {
@@ -121,18 +122,19 @@ main {
 a {
     text-decoration: none;
     color: white;
-    transition: 0.2s ease;
+    transition: 0.2s ease all;
+
+    &:hover {
+        color: var(--laranja);
+    }
 }
 
-a:hover {
-    color: var(--laranja);
-}
 
 .content {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 0 1rem;
+    padding: 0 2rem;
     margin-bottom: 7rem;
 }
 
@@ -147,10 +149,9 @@ a:hover {
     border-radius: 12px;
     cursor: pointer;
     transition: all ease 0.35s;
-}
-
-.content a img:hover {
-    transform: scale(1.05) translate3d(0.5rem,0.5rem,0);
+    &:hover{
+        transform: scale(1.03) translate3d(0.3rem,0.3rem,0);
+    }
 }
 
 .content p {
