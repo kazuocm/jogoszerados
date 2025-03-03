@@ -1,5 +1,6 @@
 :root {
-  --laranja: rgb(255, 127, 42);
+  --primary-color: rgb(255, 127, 42);
+  --bg-color: #212121;
 }
 
 h2,
@@ -13,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #212121;
+  background-color: var(--bg-color);
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   max-width: 1200px;
@@ -43,26 +44,63 @@ header {
 }
 
 .logo span {
-  color: var(--laranja);
+  color: var(--primary-color);
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+.menu {
+  cursor: pointer;
+  transition: 0.3s all ease;
+  width: 2rem;
+  height: 2rem;
+
+  &:hover {
+    color: var(--primary-color);
+  }
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  gap: 30px;
+.sidebar {
+  margin: 0;
+  padding: 20px;
+  display: none;
+  flex-direction: column;
   list-style: none;
   font-family: "Franklin Gothic Medium", Arial, sans-serif;
-  font-size: 18px;
-  line-height: 0;
-  max-width: 75%;
-  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100lvh;
+  width: 25%;
+  background-color: var(--bg-color);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar li {
+  width: 100%;
+  height: 3rem;
+}
+
+.sidebar a {
+  width: 100%;
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+@keyframes abrirmenu {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.sidebar.abrir {
+  animation: abrirmenu 0.2s;
 }
 
 .btn {
@@ -79,7 +117,7 @@ ul {
   transition: 0.3s all ease;
 
   &:hover {
-    background-color: var(--laranja);
+    background-color: var(--primary-color);
     transform: scale(1.1);
   }
 }
@@ -98,7 +136,7 @@ main {
 .score {
   display: flex;
   align-items: center;
-  color: var(--laranja);
+  color: var(--primary-color);
   font-size: 35px;
 }
 
@@ -109,7 +147,7 @@ main {
 
 .data {
   font-size: 20px;
-  color: var(--laranja);
+  color: var(--primary-color);
   text-transform: capitalize;
 }
 
@@ -126,7 +164,7 @@ a {
   transition: 0.2s ease all;
 
   &:hover {
-    color: var(--laranja);
+    color: var(--primary-color);
   }
 }
 

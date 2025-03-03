@@ -5,9 +5,8 @@
 
   header {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0;
   }
 
@@ -19,21 +18,6 @@
     gap: 30px;
     margin-bottom: 2rem;
     padding-top: 1rem;
-  }
-
-  nav {
-    justify-content: center;
-    margin: 1rem 0;
-  }
-
-  ul {
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
-    gap: 15px;
-    line-height: 20px;
   }
 
   main {

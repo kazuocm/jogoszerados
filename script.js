@@ -1,3 +1,16 @@
+function openMenu() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "flex";
+  sidebar.classList.add("abrir");
+
+  sidebar.addEventListener("click", (e) => {
+    if (e.target.id === "closeMenu") {
+      sidebar.style.display = "none";
+      sidebar.classList.remove("abrir");
+    }
+  });
+}
+
 const dados_jogos = [
   {
     title: "fobia - st. dinfna hotel",
@@ -454,7 +467,7 @@ const games = document.getElementById("games");
 function criarElemento(tagName, classe = "", texto = "") {
   const elemento = document.createElement(tagName);
   if (classe) {
-    classe = classe.replace(/ /g, "_");
+    classe = classe.replace(/ /g, "-");
     classe.split(" ").forEach((cls) => elemento.classList.add(cls));
   }
   if (texto) {
@@ -463,46 +476,45 @@ function criarElemento(tagName, classe = "", texto = "") {
   return elemento;
 }
 
-dados_jogos //.filter(jogo => jogo.score === "4")
-  .forEach((jogo) => {
-    const game_name = criarElemento("div", jogo.title, "");
-    const div_top = criarElemento("div", "top");
-    const div_title = criarElemento("div", "title");
-    const a_title = criarElemento("a", "", "");
-    const h2 = criarElemento("h2", "", jogo.title);
-    const score = criarElemento("h3", "score", jogo.score);
-    const nota = criarElemento("span", "", "/10");
-    const data = criarElemento("h3", "data", jogo.data);
-    const div_content = criarElemento("div", "content");
-    const a_content = criarElemento("a", "", "");
-    const img = criarElemento("img", "", "");
-    const p = criarElemento("p", "", jogo.p);
+dados_jogos.forEach((jogo) => {
+  const game_name = criarElemento("div", jogo.title, "");
+  const div_top = criarElemento("div", "top");
+  const div_title = criarElemento("div", "title");
+  const a_title = criarElemento("a", "", "");
+  const h2 = criarElemento("h2", "", jogo.title);
+  const score = criarElemento("h3", "score", jogo.score);
+  const nota = criarElemento("span", "", "/10");
+  const data = criarElemento("h3", "data", jogo.data);
+  const div_content = criarElemento("div", "content");
+  const a_content = criarElemento("a", "", "");
+  const img = criarElemento("img", "", "");
+  const p = criarElemento("p", "", jogo.p);
 
-    a_title.href = jogo.url;
-    a_title.target = "_blank";
+  a_title.href = jogo.url;
+  a_title.target = "_blank";
 
-    a_title.appendChild(h2);
+  a_title.appendChild(h2);
 
-    a_content.href = jogo.url;
-    a_content.target = "_blank";
+  a_content.href = jogo.url;
+  a_content.target = "_blank";
 
-    a_content.appendChild(img);
+  a_content.appendChild(img);
 
-    img.src = jogo.img;
+  img.src = jogo.img;
 
-    score.appendChild(nota);
+  score.appendChild(nota);
 
-    div_title.appendChild(a_title);
+  div_title.appendChild(a_title);
 
-    div_top.appendChild(div_title);
-    div_top.appendChild(score);
-    div_top.appendChild(data);
-    div_top.appendChild(p);
+  div_top.appendChild(div_title);
+  div_top.appendChild(score);
+  div_top.appendChild(data);
+  div_top.appendChild(p);
 
-    div_content.appendChild(a_content);
-    div_content.appendChild(div_top);
+  div_content.appendChild(a_content);
+  div_content.appendChild(div_top);
 
-    game_name.appendChild(div_content);
+  game_name.appendChild(div_content);
 
-    games.appendChild(game_name);
-  });
+  games.appendChild(game_name);
+});
