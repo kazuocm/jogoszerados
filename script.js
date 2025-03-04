@@ -518,22 +518,6 @@ const dados_jogos = [
   },
 ];
 
-const games2025 = document.getElementById("2025");
-const games2024 = document.getElementById("2024");
-const games2023 = document.getElementById("2023");
-const games2022 = document.getElementById("2022");
-const games2021 = document.getElementById("2021");
-const games2020 = document.getElementById("2020");
-const games2019 = document.getElementById("2019");
-const games2018 = document.getElementById("2018");
-const games2017 = document.getElementById("2017");
-const games2016 = document.getElementById("2016");
-const games2015 = document.getElementById("2015");
-const games2014 = document.getElementById("2014");
-const games2013 = document.getElementById("2013");
-const games2012 = document.getElementById("2012");
-const games2011 = document.getElementById("2011");
-
 function criarElemento(tagName, classe = "", texto = "") {
   const elemento = document.createElement(tagName);
   if (classe) {
@@ -559,23 +543,20 @@ dados_jogos.forEach((jogo) => {
   const a_content = criarElemento("a", "", "");
   const img = criarElemento("img", "", "");
   const p = criarElemento("p", "", jogo.p);
+  const section = document.getElementById(jogo.year);
 
   a_title.href = jogo.url;
   a_title.target = "_blank";
-
   a_title.appendChild(h2);
 
   a_content.href = jogo.url;
   a_content.target = "_blank";
-
   a_content.appendChild(img);
-
   img.src = jogo.img;
 
   score.appendChild(nota);
 
   div_title.appendChild(a_title);
-
   div_top.appendChild(div_title);
   div_top.appendChild(score);
   div_top.appendChild(data);
@@ -586,35 +567,7 @@ dados_jogos.forEach((jogo) => {
 
   game_name.appendChild(div_content);
 
-  if (jogo.year === "2025") {
-    games2025.appendChild(game_name);
-  } else if (jogo.year === "2024") {
-    games2024.appendChild(game_name);
-  } else if (jogo.year === "2023") {
-    games2023.appendChild(game_name);
-  } else if (jogo.year === "2022") {
-    games2022.appendChild(game_name);
-  } else if (jogo.year === "2021") {
-    games2021.appendChild(game_name);
-  } else if (jogo.year === "2020") {
-    games2020.appendChild(game_name);
-  } else if (jogo.year === "2019") {
-    games2019.appendChild(game_name);
-  } else if (jogo.year === "2018") {
-    games2018.appendChild(game_name);
-  } else if (jogo.year === "2017") {
-    games2017.appendChild(game_name);
-  } else if (jogo.year === "2016") {
-    games2016.appendChild(game_name);
-  } else if (jogo.year === "2015") {
-    games2015.appendChild(game_name);
-  } else if (jogo.year === "2014") {
-    games2014.appendChild(game_name);
-  } else if (jogo.year === "2013") {
-    games2013.appendChild(game_name);
-  } else if (jogo.year === "2012") {
-    games2012.appendChild(game_name);
-  } else if (jogo.year === "2011") {
-    games2011.appendChild(game_name);
+  if (section) {
+    section.appendChild(game_name);
   }
 });
