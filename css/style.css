@@ -205,6 +205,12 @@ main {
   margin-top: 2rem;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
 nav h2 {
   text-align: center;
 }
@@ -212,7 +218,7 @@ nav h2 {
 .filtros {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: 0;
   padding: 20px;
   gap: 2rem;
@@ -223,8 +229,40 @@ nav h2 {
   align-items: center;
   justify-content: center;
   gap: 0.3rem;
+  font-size: 1.2rem;
   list-style: none;
   cursor: pointer;
+}
+
+.score-filter {
+  position: relative;
+}
+
+.score-title {
+  display: flex;
+  font-size: 1.2rem;
+  transition: 0.3s all ease;
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+.score-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  gap: 1rem;
+  background-color: var(--bg-color);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+  top: 130%;
+}
+
+.score-list a {
+  text-decoration: none;
+  color: white;
   font-size: 1.2rem;
   transition: 0.3s all ease;
   &:hover {

@@ -571,3 +571,6 @@ dados_jogos.forEach((jogo) => {
     section.appendChild(game_name);
   }
 });
+
+const score_filter = document.getElementById("score-filter");
+function openScorFilter() {}
