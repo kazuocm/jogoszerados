@@ -572,5 +572,19 @@ dados_jogos.forEach((jogo) => {
   }
 });
 
-const score_filter = document.getElementById("score-filter");
-function openScorFilter() {}
+function openScoreList() {
+  const score_list = document.getElementById("score-list");
+  const chevron_right = document.getElementById("chevron-right")
+  const chevron_down = document.getElementById("chevron-down")
+  score_list.style.display = "flex";
+  if(score_list.style.display === "flex"){
+    chevron_right.style.display = "none"
+    chevron_down.style.display = "block"
+  };
+
+  score_list.addEventListener("click", (e) => {
+    if (e.target.id === "closeScoreList") {
+      score_list.style.display = "none";
+    }
+  });
+}
