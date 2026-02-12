@@ -13,6 +13,168 @@ function openMenu() {
 
 const dados_jogos = [
   {
+    title: "bloodstained: ritual of the night",
+    score: "9",
+    data: "11/fev/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/bloodstained-ritual-of-the-night/",
+    img: "https://shared.steamstatic.com/store_item_assets/steam/apps/692850/library_600x900_2x.jpg?t=1750409643",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "mega man 11",
+    score: "8",
+    data: "03/fev/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/mega-man-11/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/742300/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "kao the kangaroo",
+    score: "7",
+    data: "18/jan/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/kao-the-kangaroo/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1370140/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "castle of illusion",
+    score: "6",
+    data: "11/jan/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/disney-castle-of-illusion-starring-mickey-mouse/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227600/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "crash bandicoot n. sane trilogy",
+    score: "8",
+    data: "08/jan/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/crash-bandicoot-n-sane-trilogy/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/731490/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "injustice: gods among us ultimate edition",
+    score: "5",
+    data: "31/dez/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/pc/injustice-gods-among-us---ultimate-edition?ftag=MCD-06-10aaa1f",
+    img: "https://cdn2.steamgriddb.com/grid/aa0952d4ab66756202e6a7dcd7616bda.png",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "the evil within",
+    score: "7",
+    data: "29/dez/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/pc/the-evil-within?ftag=MCD-06-10aaa1f",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/268050/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "resident evil 4",
+    score: "8",
+    data: "22/dez/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/pc/resident-evil-4?ftag=MCD-06-10aaa1f",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "marvel's spider-man: miles morales",
+    score: "8",
+    data: "11/out/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/marvels-spider-man-miles-morales/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1817190/library_600x900.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "beyond: two souls",
+    score: "7",
+    data: "05/out/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/beyond-two-souls/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/960990/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "dead space",
+    score: "8",
+    data: "25/jul/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/pc/dead-space?ftag=MCD-06-10aaa1f",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1693980/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "bioshock infinite",
+    score: "9",
+    data: "16/jun/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/pc/bioshock-infinite?ftag=MCD-06-10aaa1f",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/8870/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "spec ops: the line",
+    score: "9",
+    data: "18/mai/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/pc/spec-ops-the-line?ftag=MCD-06-10aaa1f",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/50300/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "the legend of zelda: skyward sword hd",
+    score: "8",
+    data: "20/abr/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/the-legend-of-zelda-skyward-sword-hd/",
+    img: "https://cdn2.steamgriddb.com/grid/f87071ceae93f0318c385b13218fc5c8.png",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "the legend of zelda: ocarina of time 3d",
+    score: "9",
+    data: "abr/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/the-legend-of-zelda-breath-of-the-wild/",
+    img: "https://cdn2.steamgriddb.com/grid/ab6fe89d793b5a3c4153692779cb0680.png",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "the legend of zelda: breath of the wild",
+    score: "9",
+    data: "15/mar/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/the-legend-of-zelda-breath-of-the-wild/",
+    img: "https://cdn2.steamgriddb.com/grid/121b81f7d167ca2c24fdab4f044048f8.png",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "super mario odyssey",
+    score: "7",
+    data: "mar/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/the-legend-of-zelda-breath-of-the-wild/",
+    img: "https://cdn2.steamgriddb.com/grid/505870c8848f2d550944bf64008c9472.png",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "backrooms: escape together",
+    score: "3",
+    data: "02/mar/2025",
+    year: "2025",
+    url: "https://store.steampowered.com/app/2141730/Backrooms_Escape_Together/?curator_clanid=4777282",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2141730/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
     title: "fobia - st. dinfna hotel",
     score: "8",
     data: "31/jan/2025",
@@ -574,13 +736,13 @@ dados_jogos.forEach((jogo) => {
 
 function openScoreList() {
   const score_list = document.getElementById("score-list");
-  const chevron_right = document.getElementById("chevron-right")
-  const chevron_down = document.getElementById("chevron-down")
+  const chevron_right = document.getElementById("chevron-right");
+  const chevron_down = document.getElementById("chevron-down");
   score_list.style.display = "flex";
-  if(score_list.style.display === "flex"){
-    chevron_right.style.display = "none"
-    chevron_down.style.display = "block"
-  };
+  if (score_list.style.display === "flex") {
+    chevron_right.style.display = "none";
+    chevron_down.style.display = "block";
+  }
 
   score_list.addEventListener("click", (e) => {
     if (e.target.id === "closeScoreList") {
