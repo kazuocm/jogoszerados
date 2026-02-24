@@ -13,6 +13,15 @@ function openMenu() {
 
 const dados_jogos = [
   {
+    title: "gravity circuit",
+    score: "8",
+    data: "15/fev/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/gravity-circuit/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/858710/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
     title: "bloodstained: ritual of the night",
     score: "9",
     data: "11/fev/2026",
