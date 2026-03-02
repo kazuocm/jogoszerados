@@ -13,6 +13,15 @@ function openMenu() {
 
 const dados_jogos = [
   {
+    title: "resident evil requiem",
+    score: "9",
+    data: "28/fev/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/resident-evil-requiem/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3764200/ed3b2cae7d15f598f41006f5f1e605ec5517b5e4/library_capsule_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
     title: "gravity circuit",
     score: "8",
     data: "15/fev/2026",
