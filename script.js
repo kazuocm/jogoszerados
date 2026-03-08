@@ -13,6 +13,15 @@ function openMenu() {
 
 const dados_jogos = [
   {
+    title: "metal gear solid v: the phantom pain",
+    score: "9",
+    data: "07/03/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/metal-gear-solid-v-the-phantom-pain/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/287700/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
     title: "resident evil requiem",
     score: "9",
     data: "28/fev/2026",
