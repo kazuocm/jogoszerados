@@ -15,7 +15,7 @@ const dados_jogos = [
   {
     title: "metal gear solid v: the phantom pain",
     score: "9",
-    data: "07/03/2026",
+    data: "07/mar/2026",
     year: "2026",
     url: "https://www.metacritic.com/game/metal-gear-solid-v-the-phantom-pain/",
     img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/287700/library_600x900_2x.jpg",
