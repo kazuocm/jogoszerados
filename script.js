@@ -13,6 +13,15 @@ function openMenu() {
 
 const dados_jogos = [
   {
+    title: "emily is away",
+    score: "5",
+    data: "13/mar/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/emily-is-away/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/417860/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
     title: "metal gear solid v: the phantom pain",
     score: "9",
     data: "07/mar/2026",
@@ -41,7 +50,7 @@ const dados_jogos = [
   },
   {
     title: "bloodstained: ritual of the night",
-    score: "9",
+    score: "10",
     data: "11/fev/2026",
     year: "2026",
     url: "https://www.metacritic.com/game/bloodstained-ritual-of-the-night/",
@@ -136,6 +145,24 @@ const dados_jogos = [
     year: "2025",
     url: "https://www.metacritic.com/game/pc/dead-space?ftag=MCD-06-10aaa1f",
     img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1693980/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "bayonetta 2",
+    score: "9",
+    data: "04/jul/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/pc/bayonetta-2",
+    img: "https://cdn2.steamgriddb.com/grid/db76ba9f1aadf1434c1d08a590f41fde.png",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "bayonetta",
+    score: "8",
+    data: "20/jun/2025",
+    year: "2025",
+    url: "https://www.metacritic.com/game/pc/bayonetta",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/460790/library_600x900_2x.jpg",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
   },
   {
