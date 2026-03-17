@@ -13,6 +13,24 @@ function openMenu() {
 
 const dados_jogos = [
   {
+    title: "A.I.L.A",
+    score: "8",
+    data: "16/mar/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/aila/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2695430/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "little nightmares enhanced edition",
+    score: "7",
+    data: "14/mar/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/little-nightmares/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2149010/6024db900a8beca8c32cab4bb4f7bf9951a198c7/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
     title: "emily is away",
     score: "5",
     data: "13/mar/2026",
