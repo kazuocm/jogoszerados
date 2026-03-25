@@ -13,7 +13,16 @@ function openMenu() {
 
 const dados_jogos = [
   {
-    title: "A.I.L.A",
+    title: "rise of the tomb raider",
+    score: "9",
+    data: "21/mar/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/rise-of-the-tomb-raider/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391220/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
+    title: "a.i.l.a",
     score: "8",
     data: "16/mar/2026",
     year: "2026",
