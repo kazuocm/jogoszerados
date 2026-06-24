@@ -13,6 +13,15 @@ function openMenu() {
 
 const dados_jogos = [
   {
+    title: "replaced",
+    score: "9",
+    data: "23/jun/2026",
+    year: "2026",
+    url: "https://www.metacritic.com/game/replaced/",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1663850/library_600x900_2x.jpg",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio aut debitis ipsum! Quia ut perferendis delectus accusantium, fuga vel pariatur officia amet quidem architecto minima? Quasi dolore consequuntur quas?",
+  },
+  {
     title: "rise of the tomb raider",
     score: "9",
     data: "21/mar/2026",
